@@ -82,6 +82,7 @@ hr.star-primary:after {
 .img-logo {
     position: relative;
     top: -220%;
+    left: -7%;
 }
 
 header {
