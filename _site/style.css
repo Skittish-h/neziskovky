@@ -278,6 +278,18 @@ section.success {
     background: 0 0;
     transition: all .3s ease-in-out;
 }
+.btn-spaced {
+    position: relative;
+    
+
+
+}
+#btn-left {
+    right: 20%;
+}
+#btn-right {
+    right: -20%;
+}
 
 .btn-outline:hover,
 .btn-outline:focus,
