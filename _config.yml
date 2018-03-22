@@ -6,7 +6,10 @@ description: "Write an awesome description for your new site here. You can edit 
 keywords: "your keywords, separated by commas"
 skills: "Put some words here"
 meta_author: LastName FirstName
-
+portfolio: "Portfolio"
+paragraph1: "Problem"
+paragraph2: "Riesenie"
+contacts: "Kontaktuj"
 # Google webmaster tools
 google_verify:
 

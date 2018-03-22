@@ -197,6 +197,10 @@ section.success {
     color: #fff;
     background: #{{ site.color.primary }};
 }
+.white-paragraph {
+    background: #fff;
+    color: #{{ site.color.secondary }}
+}
 
 @media(max-width:767px) {
     section {

@@ -204,6 +204,10 @@ section.success {
     color: #fff;
     background: #7ecb26;
 }
+.white-paragraph {
+    background: #fff;
+    color: #2c3e50
+}
 
 @media(max-width:767px) {
     section {
