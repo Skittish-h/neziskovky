@@ -152,6 +152,7 @@ header .intro-text .skills {
 .nav-items {
     position: relative;
     left: 40%;
+    bottom: 5vh;
     
 }
 
@@ -299,6 +300,12 @@ section.success {
     margin-bottom: 0;
     padding-bottom: .5em;
     border-bottom: 1px solid #eee;
+}
+
+.img-logo {
+ position: relative;
+ bottom: 5vh;
+    
 }
 
 .floating-label-form-group input,
