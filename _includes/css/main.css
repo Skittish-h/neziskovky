@@ -280,10 +280,10 @@ section.success {
 
 }
 #btn-left {
-    right: 20%;
+    right: 20vh;
 }
 #btn-right {
-    right: -20%;
+    right: -20vh;
 }
 
 .btn-outline:hover,
