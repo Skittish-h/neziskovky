@@ -282,15 +282,14 @@ section.success {
 }
 .btn-spaced {
     position: relative;
-    
-
 
 }
 #btn-left {
-    right: 20vh;
+    right: 10vh;
 }
 #btn-right {
-    right: -20vh;
+    
+    right: -10vh;
 }
 
 .btn-outline:hover,
