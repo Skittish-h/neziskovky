@@ -79,12 +79,7 @@ hr.star-primary:after {
 .img-centered {
     margin: 0 auto;
 }
-.img-logo {
-    position: relative;
-    top: -220%;
-    left: -7%;
-    
-}
+
 .logo-spin { -webkit-animation:logo-rotate infinite 20s linear;animation:logo-rotate infinite 20s linear}@-webkit-keyframes logo-rotate{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}@keyframes logo-rotate{0% {-webkit-transform: rotate(0deg); transform:rotate(0deg)} to { -webkit-transform:rotate(1turn); transform:rotate(1turn) } }
 
 header {
@@ -155,7 +150,7 @@ header .intro-text .skills {
     }
 }
 .nav-items {
-    position: absolute;
+    position: relative;
     left: 40%;
     
 }
@@ -182,6 +177,7 @@ header .intro-text .skills {
 .navbar-default,
 .navbar-inverse {
     border: 0;
+    z-index: 1030;
 }
 
 section {
