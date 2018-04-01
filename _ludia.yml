@@ -10,7 +10,8 @@ portfolio: "Portfolio"
 paragraph1: "Problem"
 paragraph2: "Riesenie"
 contacts: "Kontaktuj"
-
+gems:
+ - jekyll-multisite
 # Google webmaster tools
 google_verify:
 
