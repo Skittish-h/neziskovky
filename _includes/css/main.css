@@ -3,7 +3,28 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
+.circle {
+	background: #{{ site.color.secondary }};
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 50px;
+}
 
+.circle-l {
+	width: 105px;
+	height: 105px;
+}
+.circle-l .fa {
+	line-height: 105px;
+	color: #fff;
+}
+.service-item {
+	padding: 0 20px;
+	text-align: center;
+}
 body {
     overflow-x: hidden;
 }
@@ -150,10 +171,35 @@ header .intro-text .skills {
     }
 }
 .nav-items {
-    position: relative;
-    left: 40%;
-    bottom: 6vh;
-    
+
+}
+.navbar-header
+{
+    float: left;
+}
+.navbar-nav > li > .dropdown-menu {
+	margin-top: -5px;;
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+}
+.navbar-small .nav {
+	padding: 5px 0 !important;
+}
+
+
+.navbar-small .navbar-brand {
+	padding: 5px 15px 0 0;
+}
+
+.nav > li > a {
+	padding: 7px;
+}
+.navbar-brand {
+		padding: 5px 15px 0 0;
+	}
+
+.hooder {
+ float: left;
 }
 
 .navbar {
@@ -172,7 +218,6 @@ header .intro-text .skills {
 
 .navbar .navbar-nav li a:focus {
     outline: 0;
-    position: relative;
 }
 
 .navbar-default,
@@ -189,8 +234,27 @@ section h2 {
     margin: 0;
     font-size: 3em;
 }
-
-section.success {
+.heading {
+	margin: 50px 0;
+	text-align: center;
+	color: #fff;
+	position: relative;
+}
+.heading > div {
+	text-transform: uppercase;
+	font-weight: normal;
+	color: #707070;
+}
+.heading h1 {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.heading p {
+	font-size: 16px;
+	width: 80%;
+	margin: 0 auto;
+}
+.success {
     color: #fff;
     background: #{{ site.color.primary }};
 }
@@ -302,11 +366,6 @@ section.success {
     border-bottom: 1px solid #eee;
 }
 
-.img-logo {
- position: relative;
- bottom: 5vh;
-    
-}
 
 .floating-label-form-group input,
 .floating-label-form-group textarea {
